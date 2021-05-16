@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  border: 1px solid transparent;
+}
+
+.content {
+  min-height: 100%;
+  position: relative;
+  margin-bottom: -60%;
+}
+
+.order-table {
+  overflow-y: auto;
+  height: 400px;
+}
+
+.main-column {
+  width: 200px;
+  margin: auto;
+}
+
+.update-order {
+  color: lightyellow;
+}
+
+td,
+th {
+  width: 100px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.spread {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
