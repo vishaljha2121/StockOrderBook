@@ -54,6 +54,16 @@
                             <small>{{spread}} Spread</small>
                         </div>
                         <div class="order-table pre-scrollable">
+                            <table>
+                                <tr>
+                                    <th class="text-left">
+                                        <small>PRICE</small>
+                                    </th>
+                                    <th class="text-right">
+                                        <small>VOLUME</small>
+                                    </th>
+                                </tr>
+                            </table>
                             <table class="table-striped">
                                 <tr v-for="item in bidsToRender" v-bind:class="[item.isLatest ? latestClass : '']">
                                     <td>
