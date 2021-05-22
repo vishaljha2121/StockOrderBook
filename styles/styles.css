@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -10,7 +9,7 @@ body {
 .content {
   min-height: 100%;
   position: relative;
-  margin-bottom: -60%;
+  margin-bottom: -60px;
 }
 
 .order-table {
@@ -23,12 +22,11 @@ body {
   margin: auto;
 }
 
-.update-order {
-  color: lightyellow;
+.updated-order {
+  color: #bc027c;
 }
 
-td,
-th {
+td, th {
   width: 100px;
 }
 
@@ -41,18 +39,24 @@ th {
   margin-bottom: 5px;
 }
 
+/* Scrollbar styling */
+
+/* width */
 ::-webkit-scrollbar {
   width: 5px;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
 
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
